@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/btholt/complete-intro-to-react-v4#readme",
   "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -30,8 +32,11 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
+    "jest": "^24.7.1",
     "parcel-bundler": "^1.11.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.8.6",
+    "webpack": "^4.30.0"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
